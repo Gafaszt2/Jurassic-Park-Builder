@@ -1,0 +1,566 @@
+[
+	// Base terrains
+        {
+		"name": "Lagoon",
+		"type": "Water",
+		"science": 2,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+	{
+		"name": "Tropical",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+        {
+		"name": "Taiga",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+        {
+		"name": "Sand",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+        {
+		"name": "Tropical Water",
+		"type": "Water",
+		"food": 2,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+        {
+		"name": "Light Blue Water",
+		"type": "Water",
+		"food": 2,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Road",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Stone Road",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Wodden Road",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+
+{
+		"name": "Grey Road",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Green Road",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+
+
+{
+		"name": "Diagonal Jeep Station",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Horizontal Jeep Station",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Visitor Center",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Hatchery",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	}
+
+// Feature
+
+{
+		"name": "Ranger Station",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+		"RGB": [43, 87, 151]
+	}
+
+{
+		"name": "Electrical Station",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Bunker",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+		"RGB": [43, 87, 151]
+	}
+        {
+		"name": "Shop",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+	}
+        {
+		"name": "Alt Shop",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+	}
+        {
+		"name": "Clothing Shop",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+	}
+        {
+		"name": "Alt Clothing Shop",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+	}
+{
+		"name": "Benches",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+	}
+{
+		"name": "Fountain",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+	}
+{
+		"name": "Amber Fountain",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+	}
+{
+		"name": "East Dock",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Coast","Ocean","Tropical Water","Light Blue Water"],
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Viewing Tower Glass",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Viewing Tower Wooden",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road"],
+		"RGB": [43, 87, 151]
+	}
+
+// Nature
+
+{
+		"name": "Tropical Rock",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Sand","Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+	}
+{
+		"name": "Taiga Rock",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Sand","Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+	}
+        {
+		"name": "Palm Tree",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Sand","Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+	}
+        {
+		"name": "Seed Plants",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Sand","Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+	}
+        {
+		"name": "Paleo Flora",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Sand","Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+	}
+        {
+		"name": "Ground Fiber",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Sand","Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+	}
+
+        {
+		"name": "Dense Jungle",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+	}
+{
+		"name": "Paleo Flora",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+	}
+{
+		"name": "Redwoods",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+	}
+
+        {
+		"name": "Mud",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+
+// Attractions
+
+        {
+		"name": "Viewing Gallery 1",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+        {
+		"name": "Viewing Gallery 2",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+        {
+		"name": "Aviary",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+        {
+		"name": "Hatchery",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+        {
+		"name": "Low Security Fence 1",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+{
+		"name": "Low Security Fence 2",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+{
+		"name": "Low Security Fence 3",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+{
+		"name": "Low Security Fence 4",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+{
+		"name": "Low Security Fence 5",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+
+{
+		"name": "Low Security Fence 6",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+
+{
+		"name": "Medium Security Fence 1",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+{
+		"name": "Medium Security Fence 2",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+{
+		"name": "Medium Security Fence 3",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+{
+		"name": "Medium Security Fence 4",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+{
+		"name": "Medium Security Fence 5",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+
+{
+		"name": "Medium Security Fence 6",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Light Blue Water", "Tropical Water","Road","Wodden Road","Grey Road","Green Road","Stone Road","Tundra","Plains","Grassland","Desert","Snow","Tropical","Sand","Taiga"],
+	}
+{
+		"name": "Lagoon Wall 1",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Lagoon"],
+	}
+{
+		"name": "Lagoon Wall 2",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Lagoon"],
+	}
+{
+		"name": "Lagoon Wall 3",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Lagoon"],
+	}
+{
+		"name": "Lagoon Wall 4",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Lagoon"],
+	}
+{
+		"name": "Lagoon Wall 5",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Lagoon"],
+	}
+{
+		"name": "Lagoon Wall 6",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Lagoon"],
+	}
+
+
+	]

@@ -1,0 +1,64 @@
+[	
+// Land Creatures
+
+        {
+		"name": "Brachiosaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Velociraptor",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Tyrannosaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Dilophosaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Gallimimus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Parasaurolophus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+
+// Lagoon Creatures
+
+        {
+		"name": "Tylosaurus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Lagoon"],
+		"faith": 2,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+
+        ]
