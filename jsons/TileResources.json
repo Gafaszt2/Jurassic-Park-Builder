@@ -49,6 +49,54 @@
 		"improvement": "Farm",
 		"improvementStats": {"production": 1},
 	},
+        {
+		"name": "Triceratops",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Parasaurolophus JP2",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Stegosaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Diplodocus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Pachycephalosaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Composognathus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
 
 // Lagoon Creatures
 
@@ -60,5 +108,65 @@
 		"improvement": "Farm",
 		"improvementStats": {"production": 1},
 	},
+        {
+		"name": "Plesiosaurus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Lagoon"],
+		"faith": 2,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Elasmosaurus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Lagoon"],
+		"faith": 2,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Styxosaurus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Lagoon"],
+		"faith": 2,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
 
+
+
+// Gafa Land Creatures
+
+        {
+		"name": "Rapetosaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Majungasaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Masiakasaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Beelzebufo",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Tropical","Sand","Taiga"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+	},
         ]

@@ -81,7 +81,7 @@
 
 
 {
-		"name": "Diagonal Jeep Station",
+		"name": "Vertical Jeep Station",
 		"type": "Land",
 		"production": 1,
 		"movementCost": 1,
@@ -110,6 +110,31 @@
 	}
 
 // Feature
+
+{
+		"name": "Jeep",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Sand","Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Meat",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Sand","Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "Eggs",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Sand","Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+		"RGB": [43, 87, 151]
+	}
 
 {
 		"name": "Ranger Station",
@@ -208,6 +233,14 @@
 	}
 {
 		"name": "East Dock",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Coast","Ocean","Tropical Water","Light Blue Water"],
+		"RGB": [43, 87, 151]
+	}
+{
+		"name": "West Dock",
 		"type": "TerrainFeature",
 		"production": 1,
 		"movementCost": 1,
@@ -324,7 +357,26 @@
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
 	}
-
+{
+		"name": "Desert Bush",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Sand","Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+	}
+{
+		"name": "Cactus",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Sand","Tundra","Plains","Grassland","Desert","Snow","Tropical","Taiga"],
+	}
         {
 		"name": "Mud",
 		"type": "TerrainFeature",
@@ -561,6 +613,5 @@
 		"RGB": [105,125,72],
 		"occursOn": ["Lagoon"],
 	}
-
 
 	]
